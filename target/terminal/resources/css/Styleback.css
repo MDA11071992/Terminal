@@ -1,0 +1,54 @@
+.fig {
+    text-align: center; /* Выравнивание по центру */
+}
+
+body {
+    background-image: url(/resources/images/background.jpg);
+}
+
+a {
+    padding: 0; /* Убираем поля */
+    margin-left: 1.5em; /* Отступ слева */
+    font-family:Calibri;
+    margin-top: 1.0em; /* Отступ сверху */
+    margin-bottom: 0.5em; /* Отступ снизу */
+}
+
+div.page-container {
+    min-width: 960px;
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#parent {
+    display: table;
+    height: 100%;
+}
+#child {
+    display: table-cell;
+    vertical-align: middle;"
+}
+
+
+#footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    margin: 10px 0 10px -10px;
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+}
+
+#footop {
+    position: fixed; /* Фиксированное положение */
+    left: 0; top: 0; /* Левый верхний угол */
+    margin: 10px 0 10px -5px;
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+}
+
+html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}

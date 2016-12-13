@@ -1,0 +1,24 @@
+
+a.button {
+    position: relative;
+    display: inline-block;
+    width: 10em;
+    max-width: 10em;
+    height: 13em;
+    max-height: 13em;
+    vertical-align: middle;
+    margin-top: 0;
+    text-align: center;
+    font-family: Calibri;
+    font-size: larger;
+    line-height: 0.9;
+    color: black; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    background: white; /* фон кнопки */
+    border: none;
+    padding: .7em 1.5em; /* отступ от текста */
+    outline: none; /* убирать контур в Mozilla */
+}
+a.button:active { background: red; } /* при нажатии */
+

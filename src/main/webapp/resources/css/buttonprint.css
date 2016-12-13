@@ -1,0 +1,7 @@
+button.print{
+    display: inline-block;
+    width: 8em;
+    height: 5em;
+    background: white;
+    border: none;
+}

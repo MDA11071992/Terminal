@@ -1,0 +1,22 @@
+.container {
+    display: table;
+    table-layout: fixed;
+    border-spacing: 1em;
+    width: 90%;
+    height: 20%;
+}
+
+.container > a.blog {
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 4vh;
+    color: #ffffff; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    background: rgb(234, 32, 40); /* фон кнопки */
+    outline: none; /* убирать контур в Mozilla */
+}
+.container > a.blog:active { background: rgb(152,15,0); } /* при нажатии */
+

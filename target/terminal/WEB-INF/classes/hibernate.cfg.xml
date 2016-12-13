@@ -1,0 +1,28 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+
+        <mapping class = "com.springapp.mvc.domain.addonpc"/>
+        <mapping class = "com.springapp.mvc.domain.addonps4"/>
+        <mapping class = "com.springapp.mvc.domain.addonx"/>
+        <mapping class = "com.springapp.mvc.domain.avir"/>
+        <mapping class = "com.springapp.mvc.domain.digverpcg"/>
+        <mapping class = "com.springapp.mvc.domain.other"/>
+        <mapping class = "com.springapp.mvc.domain.digverps4g"/>
+        <mapping class = "com.springapp.mvc.domain.digverxg"/>
+        <mapping class = "com.springapp.mvc.domain.gcpcgame"/>
+        <mapping class = "com.springapp.mvc.domain.gcps4game"/>
+        <mapping class = "com.springapp.mvc.domain.gcxgame"/>
+        <mapping class = "com.springapp.mvc.domain.itunes"/>
+        <mapping class = "com.springapp.mvc.domain.office"/>
+        <mapping class = "com.springapp.mvc.domain.oncin"/>
+        <mapping class = "com.springapp.mvc.domain.refilx"/>
+        <mapping class = "com.springapp.mvc.domain.refilps"/>
+        <mapping class = "com.springapp.mvc.domain.sabsps"/>
+        <mapping class = "com.springapp.mvc.domain.sabsx"/>
+        <mapping class = "com.springapp.mvc.domain.turnsol"/>
+
+    </session-factory>
+</hibernate-configuration>
