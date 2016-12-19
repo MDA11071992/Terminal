@@ -20,7 +20,7 @@
 
 <body>
 <div class="logo">
-    <a href="/"><img src="<c:url value="/resources/images/mvideo-logo.png"/>" /></a>
+    <a href="<c:url value="/terminal"/>"><img src="<c:url value="/resources/images/mvideo-logo.png"/>" /></a>
 </div>
 <div class="content">
     <div align="center">
@@ -50,7 +50,7 @@
 </body>
 
 <div id="footop">
-        <a href="<c:url value="/"/>" class="buttonb">В главное меню</a>
+        <a href="<c:url value="/terminal"/>" class="buttonb">В главное меню</a>
 </div>
 
 </html>

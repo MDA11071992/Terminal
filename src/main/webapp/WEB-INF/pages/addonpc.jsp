@@ -19,7 +19,7 @@
                     <font size="4">р.</font>
                 </a>
                 <a style="float: right;  margin-right: 0; padding: 1px;">
-                    <button onclick='$("#bcTarget").barcode("${addonpc.COD}", "ean13",{barWidth:2, barHeight:80}); javascript:CallPrint("print-content");'class="print">
+                    <button onclick='$("#bcTarget").barcode("${addonpc.COD}", "ean13",{barWidth:2, barHeight:60}); javascript:CallPrint("print-content");'class="print">
                         <img src="<c:url value='/resources/images/red_print.png' />" />
                     </button>
                 </a>
@@ -39,7 +39,7 @@
                         ${addonpc.CHARAC}
                     <br>
                     <a>
-                        <button onclick='$("#bcTarget").barcode("${addonpc.COD}", "ean13",{barWidth:2, barHeight:80}); javascript:CallPrint("print-content");'class="print">
+                        <button onclick='$("#bcTarget").barcode("${addonpc.COD}", "ean13",{barWidth:2, barHeight:60}); javascript:CallPrint("print-content");'class="print">
                             <img src="<c:url value='/resources/images/red_print.png' />" />
                         </button>
                     </a>

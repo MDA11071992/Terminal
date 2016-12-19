@@ -8,8 +8,8 @@
     <link href="<c:url value="/resources/css/lblog.css" />" rel="stylesheet" type="text/css"  />
     <link href="<c:url value="/resources/css/buttonback.css" />" rel="stylesheet" type="text/css"  />
     <meta http-equiv="refresh" content="180; url=http://localhost/">
-    <div id="footop">
-        <p class="fig"><img src="<c:url value="/resources/images/mvideo-logo.png"/>" /></p>
+    <div class="logo">
+        <a href="<c:url value="/terminal"/>"><img src="<c:url value="/resources/images/mvideo-logo.png"/>" /></a>
     </div>
     <title>TERMINAL</title>
 </head>
@@ -27,7 +27,7 @@
 </div>
 <div id="footer">
     <p class="fig">
-        <a href="<c:url value="/"/>" class="buttonb">В главное меню</a>
+        <a href="<c:url value="/terminal"/>" class="buttonb">В главное меню</a>
     </p>
 </div>
 </body>
