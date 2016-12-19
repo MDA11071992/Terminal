@@ -15,23 +15,38 @@
     <link href="<c:url value="/resources/css/conteiner.css" />" rel="stylesheet" type="text/css"  />
     <link href="<c:url value="/resources/css/buttonprint.css" />" rel="stylesheet" type="text/css"  />
     <!--<meta http-equiv="refresh" content="180; url=http://localhost/">-->
-        <p class="fig"><img src="<c:url value="/resources/images/mvideo-logo.png"/>" /></p>
-
     <title>TERMINAL</title>
 </head>
+
 <body>
+<div class="logo">
+    <a href="/"><img src="<c:url value="/resources/images/mvideo-logo.png"/>" /></a>
+</div>
 <div class="content">
     <div align="center">
         <div class="container">
-
                     <jsp:doBody/>
         </div>
         <div style="display:none">
-            <div id="print-content">
-                <h1 style="text-align: center">«М.Видео»</h1>
-                <p style="text-align: center; margin-top: -30px">нам не все равно</p>
+            <div id="print-content" style="align-content: center;">
+                <style>
+                    @media print {
+
+                        @page  {
+                            size: 3cm 3cm;
+                        }
+                        img.slip {
+                            margin-left: 1.5cm;
+                        }
+                        a.slip{
+                            background-color: #383838;
+                            height: 1cm;
+                        }
+                    }
+                </style>
+                    <img class="slip" src="http://localhost:8080/terminal/resources/images/mvideo-logo-print.png">
                 <br>
-                <a id="bcTarget"></a>
+                    <a class="slip" id="bcTarget"></a>
             </div>
         </div>
     </div>

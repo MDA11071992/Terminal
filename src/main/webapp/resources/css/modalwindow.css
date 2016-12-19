@@ -22,7 +22,7 @@
     top: -100%;
     right: 0;
     left: 50%;
-    font-size: 14px;
+    font-size: large;
     z-index: 20;
     margin: 0;
     width: 85%;
@@ -109,6 +109,8 @@
     max-width: 480px;
     height: auto;
     max-height: 480px;
+    border: 2px gray;
+
 }
 /* миниатюры слева/справа */
 .pic-left,
@@ -174,7 +176,7 @@
     padding: 5px 0;
     text-align: justify;
     font-family: Calibri;
-    font-size: medium;
+    font-size: large;
 }
 
 table {
