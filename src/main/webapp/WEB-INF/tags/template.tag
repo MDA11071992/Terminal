@@ -1,4 +1,4 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+﻿<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ tag description="Template Tag" pageEncoding="utf-8" %>
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <script type="text/javascript" src="<c:url value="/resources/js/jquery-1.3.2.min.js"/>"></script>
@@ -37,11 +37,7 @@
                         }
                         img.slip {
                             margin-left: 1.5cm;
-                        }
-                        a.slip{
-                            background-color: #383838;
-                            height: 1cm;
-                        }
+                        }                       
                     }
                 </style>
                     <img class="slip" src="http://localhost:8080/terminal/resources/images/mvideo-logo-print.png">
