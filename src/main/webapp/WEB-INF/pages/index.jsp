@@ -6,8 +6,9 @@
 <head>
     <link href="<c:url value="/resources/css/Styleback.css" />" rel="stylesheet" type="text/css"  />
     <link href="<c:url value="/resources/css/bblog.css" />" rel="stylesheet" type="text/css" />
-
-    <p class="fig"><img src="<c:url value="/resources/images/mvideo-logo.png"/>" /></p>
+    <div class="logo">
+        <a><img src="<c:url value="/resources/images/mvideo-logo.png"/>" /></a>
+    </div>
     <title>TERMINAL</title>
 </head>
 <body>
